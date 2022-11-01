@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #919191;
+}
+section {
+  margin: 50px 0px;
+  margin-top: 0px;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+/* This Is Hello Section */
+#helloMobin {
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.helloWrap {
+  display: flex;
+  flex-flow: column wrap;
+}
+.singleHello {
+  max-width: 100%;
+}
+.helloRight {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.helloRight img {
+  width: 70%;
+}
+.helloLeft h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.helloLeft h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ec4c7a;
+  padding-bottom: 8px;
+}
+.helloLeft p {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.helloLeft a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to left, #f55580, #ec4f90);
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+/* This Is Biography Section */
+#biography {
+  background-image: url(../images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biographyWrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.singleBio {
+  width: 100%;
+}
+.bioLeft h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.bioLeft p {
+  padding-bottom: 30px;
+}
+.bioLeft a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to Left, #f55580, #ec4f90);
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+.bioRight {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.bioRight img {
+  max-width: 70%;
+}
+/* This Is latest work Section */
+.LWorkWrap {
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+.myLatestWork {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.singleLatest {
+  width: 100%;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.singleLatest img {
+  max-width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.singleLatest img:hover {
+  box-shadow: 0px 0px 10px 0px rgb(210, 210, 210);
+  transform: scale(1.1);
+}
+/* This Is what client are say Section */
+#clinet {
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.client {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.clientWrap {
+  display: flex;
+  flex-flow: column;
+}
+.clientName {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.clientName h3 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.clientName p {
+  font-weight: 500;
+}
+.clientDesc {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.clientBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientBtn button {
+  border: none;
+}
+.clientBtn button a {
+  text-decoration: none;
+  background-color: #ec4c7a;
+  color: white;
+  display: block;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+.clientBtn button span {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.clientBtn button strong {
+  font-size: 20px;
+  letter-spacing: 1.3px;
+}
+/* This Is Footer Section */
+#copyWright {
+  margin: 40px 0px;
+}
+small {
+  display: block;
+  text-align: center;
+}

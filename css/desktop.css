@@ -1,0 +1,97 @@
+/* ==============================================================================================                           This Responsive  Large devices (desktops)
+=============================================================================================
+*/
+@media only screen and (min-width: 992px) {
+    p{
+        font-size: 18px;
+    }
+    section{
+        margin: 100px 0px;
+        margin-top: 0px;
+    }
+    /* This Is Hello Section */
+    .helloWrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .singleHello{
+        max-width: 48%;
+    }
+    .helloRight {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+    .helloRight img{
+        width: 90%;
+    }
+    .helloLeft h3{
+        font-size: 50px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .helloLeft h1{
+        font-size: 60px;
+        padding-bottom: 8px;
+    }
+    .helloLeft p{
+        color: #919191;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    .helloLeft a{
+        width: 120px;
+    }
+/* This Is Biography Section */
+    .biographyWrap{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bioLeft h2{
+        text-transform: capitalize;
+        font-size: 50px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+    .bioLeft p{
+        padding-bottom: 30px;
+    }  
+    .bioLeft {
+        order: 2;
+        width: 48%;
+    }
+    .bioRight{
+        width: 48%;
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-start;
+        order: 1;
+    }
+    .bioRight img{
+        max-width: 90%;
+    }  
+  /* This Is latest work Section */
+    .LWorkWrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .singleLatest{
+        width: 32%;
+        margin-bottom: 50px;
+    }
+    /* This Is what client are say Section */
+    .clientDesc{
+        width: 40%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+
+
+}
