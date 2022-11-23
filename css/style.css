@@ -24,6 +24,7 @@ section {
 #helloMobin {
   background-image: url(../images/header-bg.png);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 .helloWrap {
@@ -75,6 +76,7 @@ section {
   background-image: url(../images/biography-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 .biographyWrap {
   display: flex;
@@ -146,7 +148,7 @@ section {
 #clinet {
   background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 .client {
